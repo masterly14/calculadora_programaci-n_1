@@ -7,9 +7,7 @@ import Link from "next/link";
 import { MenuIcon, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 
-type Props = {};
-
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const [isResponsive, setIsResponsive] = useState(false);
 
   const showResponsiveMenu = () => {
